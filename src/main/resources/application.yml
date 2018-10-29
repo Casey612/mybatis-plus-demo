@@ -1,14 +1,14 @@
 spring:
-    datasource:
-      url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
-      username: root
-      password: 123456
-      driverClassName: com.mysql.jdbc.Driver
-      hikari:
-        minimum-idle: 5
-        maximum-pool-size: 15
-        pool-name: hikariCP
-        max-lifetime: 1800000
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      pool-name: hikariCP
+      max-lifetime: 1800000
 
 
 mybatis-plus:

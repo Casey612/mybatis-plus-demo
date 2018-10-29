@@ -61,7 +61,7 @@ public class MybatisPlusConfig {
     @Bean
     public MapperScannerConfigurer mapperScanner() {
         MapperScannerConfigurer scannerConfigurer = new MapperScannerConfigurer();
-        scannerConfigurer.setBasePackage("com.miaozhen.dmp.dashboard.dashboardservice.dao");
+        scannerConfigurer.setBasePackage("com.example.springboot.demo.mapper");
         return scannerConfigurer;
     }
 }
